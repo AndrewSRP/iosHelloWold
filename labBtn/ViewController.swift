@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var myLabel: UILabel!
     @IBOutlet weak var loadDone: UILabel!
     
+    @IBOutlet weak var textView: UITextView!
     //버튼 클릭시
     @IBAction func tapBtn(_ sender: Any) {
         //딕셔너리 테스트
@@ -25,6 +26,13 @@ class ViewController: UIViewController {
             print("strDict[\(key)=\(value)]")
         }
         myLabel.text = "test";
+    }
+    @IBAction func textViewController(_ sender: Any) {
+        if(textView.alpha == 0){
+            textView.alpha = 100
+        }else{
+            textView.alpha = 0
+        }
     }
     
     func functionTest() -> (Int, String){
