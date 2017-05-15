@@ -12,6 +12,7 @@
 		DA66C61E1EC9837F001DFB35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA66C61C1EC9837F001DFB35 /* Main.storyboard */; };
 		DA66C6201EC9837F001DFB35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA66C61F1EC9837F001DFB35 /* Assets.xcassets */; };
 		DA66C6231EC9837F001DFB35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA66C6211EC9837F001DFB35 /* LaunchScreen.storyboard */; };
+		DA66C62D1EC9A29D001DFB35 /* rockPaperScissorsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA66C62C1EC9A29D001DFB35 /* rockPaperScissorsStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DA66C61F1EC9837F001DFB35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA66C6221EC9837F001DFB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA66C6241EC9837F001DFB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA66C62C1EC9A29D001DFB35 /* rockPaperScissorsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = rockPaperScissorsStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		DA66C6171EC9837F001DFB35 /* labBtn */ = {
 			isa = PBXGroup;
 			children = (
+				DA66C62B1EC9A24D001DFB35 /* rockpaperScissors */,
 				DA66C6181EC9837F001DFB35 /* AppDelegate.swift */,
 				DA66C61A1EC9837F001DFB35 /* ViewController.swift */,
 				DA66C61C1EC9837F001DFB35 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				DA66C6241EC9837F001DFB35 /* Info.plist */,
 			);
 			path = labBtn;
+			sourceTree = "<group>";
+		};
+		DA66C62B1EC9A24D001DFB35 /* rockpaperScissors */ = {
+			isa = PBXGroup;
+			children = (
+				DA66C62C1EC9A29D001DFB35 /* rockPaperScissorsStoryboard.storyboard */,
+			);
+			name = rockpaperScissors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				DA66C6231EC9837F001DFB35 /* LaunchScreen.storyboard in Resources */,
 				DA66C6201EC9837F001DFB35 /* Assets.xcassets in Resources */,
+				DA66C62D1EC9A29D001DFB35 /* rockPaperScissorsStoryboard.storyboard in Resources */,
 				DA66C61E1EC9837F001DFB35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
